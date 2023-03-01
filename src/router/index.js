@@ -1,10 +1,10 @@
-import  DetailBoard  from "../pages/DetailBoard/index.vue";
+import  DetailBoardPage  from "../pages/DetailBoardPage/index.vue";
 import HomePage from '../pages/HomePage/index.vue'
 import VueRouter from "vue-router"
 import Vue from "vue"
  const routes = [
     {path: '/', component: HomePage},
-    { path: '/board', component: DetailBoard },
+    {path: '/boards/:id', component: DetailBoardPage },
   ]
 Vue.use(VueRouter)
 
