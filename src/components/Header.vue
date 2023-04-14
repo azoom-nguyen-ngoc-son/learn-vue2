@@ -1,5 +1,6 @@
 <template>
     <div>
+        <h1> this is commit 1</h1>
         <div class="headerPage" v-bind:style="{ 'background-color': backgroundHeader }">
             <box-icon class='icon' name='menu'></box-icon>
             <h1 class='title'>{{ titleHeader }} </h1>
