@@ -3,6 +3,7 @@
         <h1> this is commit 1</h1>
         <h1> this is commit 2</h1>
         <h1> this is commit 3</h1>
+        <h1> this is commit 1 of pull request 2</h1>
 
         <div class="headerPage" v-bind:style="{ 'background-color': backgroundHeader }">
             <box-icon class='icon' name='menu'></box-icon>
